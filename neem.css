@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url(asset/login.jpg);
+}
+.container{
+    height: 96%;
+    width: 90%;
+    background: #fff;
+    margin: 2% 5%;
+    display: flex;
+    border-radius: 40px;
+}
+.container .img-container{
+    height: 100%;
+    width: 40%;
+    border-radius: 40px 0 0 40px;
+    /* background: #000; */
+}
+.container .img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 40px 0 0 40px;
+
+}
+.container .info{
+    height: 100%;
+    width: 60%;
+    padding-left: 40px;
+}
+.info .title{
+    color:#0f3614;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5rem;
+}
+.details{
+    font-size: 18px;
+}
